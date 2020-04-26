@@ -1,4 +1,7 @@
 export default function evanyouCanvas(parentElement, documentClick = true) {
+  if (typeof parentElement === "string") {
+    parentElement = document.querySelector(parentElement);
+  }
   const element = create(parentElement);
   const update = drawCanvas(element);
   if (documentClick) {

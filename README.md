@@ -5,10 +5,9 @@ evanyou canvas library
 ## API
 
 ```js
-const evanyouCanvas = require("evanyou-canvas");
+const ec = require("evanyou-canvas");
 
-const parentElement = document.querySelector("#parent");
-const { element, update } = evanyouCanvas(parentElement);
+const { element, update } = ec("#parent"); // selector or element
 
 // element: canvas element
 // update(): draw canvas
