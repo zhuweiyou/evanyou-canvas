@@ -1,5 +1,7 @@
 # evanyou-canvas
 
+evanyou canvas library
+
 ## API
 
 ```js
