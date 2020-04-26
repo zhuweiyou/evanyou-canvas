@@ -1,8 +1,9 @@
 {
   "name": "evanyou-canvas",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "dist/evanyou-canvas.umd.js",
   "module": "dist/evanyou-canvas.mjs",
+  "types": "index.d.ts",
   "scripts": {
     "build": "microbundle src/index.js"
   },
