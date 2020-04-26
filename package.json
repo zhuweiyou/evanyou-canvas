@@ -1,12 +1,23 @@
 {
   "name": "evanyou-canvas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/evanyou-canvas.umd.js",
   "module": "dist/evanyou-canvas.mjs",
   "scripts": {
     "build": "microbundle src/index.js"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhuweiyou/evanyou-canvas.git"
+  },
+  "homepage": "https://github.com/zhuweiyou/evanyou-canvas",
+  "author": "zhuweiyou <i@zhuweiyou.com> (https://github.com/zhuweiyou)",
+  "keywords": [
+    "evanyou",
+    "canvas",
+    "evanyou-canvas"
+  ],
   "devDependencies": {
     "microbundle": "^0.11.0"
   }
