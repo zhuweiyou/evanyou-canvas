@@ -2,10 +2,11 @@
 
 evanyou canvas library
 
-## API
+## example
 
 ```js
-const ec = require("evanyou-canvas");
+import ec from "evanyou-canvas";
+// const ec = require("evanyou-canvas");
 
 const { element, update } = ec("#parent"); // selector or element
 
