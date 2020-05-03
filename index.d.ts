@@ -1,6 +1,6 @@
 declare function evanyouCanvas(
   parentElement: HTMLElement | string,
-  documentClick?: boolean
+  documentClick?: true
 ): {
   element: HTMLElement;
   update: Function;
