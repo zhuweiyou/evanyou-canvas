@@ -3,12 +3,12 @@ import './index.css'
 export default function evanyouCanvas() {
   const canvas = document.createElement('canvas')
   canvas.className = 'evanyou-canvas'
-  const update = drawCanvas(canvas)
-  document.addEventListener('click', update)
+  const updateCanvas = drawCanvas(canvas)
+  document.addEventListener('click', updateCanvas)
   return {
     canvas,
-    update,
-    offClick: () => document.removeEventListener('click', update),
+    updateCanvas,
+    offClick: () => document.removeEventListener('click', updateCanvas),
   }
 }
 
