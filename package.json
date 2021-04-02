@@ -1,10 +1,10 @@
 {
   "name": "evanyou-canvas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/evanyou-canvas.umd.js",
   "module": "dist/evanyou-canvas.mjs",
   "scripts": {
-    "build": "microbundle src/index.ts"
+    "build": "microbundle src/index.js"
   },
   "license": "MIT",
   "repository": {

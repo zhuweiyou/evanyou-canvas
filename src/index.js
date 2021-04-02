@@ -2,6 +2,7 @@ import './index.css'
 
 export default function evanyouCanvas() {
   const canvas = document.createElement('canvas')
+  canvas.className = 'evanyou-canvas'
   const update = drawCanvas(canvas)
   document.addEventListener('click', update)
   return {
