@@ -6,12 +6,8 @@ evanyou canvas library
 
 ```ts
 import evanyouCanvas from 'evanyou-canvas'
-```
+import 'evanyou-canvas/dist/evanyou-canvas.css'
 
-```ts
-export default function evanyouCanvas(): {
-  canvas: HTMLCanvasElement
-  update: () => void
-  offClick: () => void
-}
+const { canvas, update, offClick } = evanyouCanvas()
+document.body.appendChild(canvas)
 ```
